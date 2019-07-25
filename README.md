@@ -10,7 +10,7 @@ See how many negative tweets President Bolsonaro has per day.
 - Twitter API token
 
 ## Install
- - `$ https://github.com/msAlcantara/bozohate`
+ - `$ git clone https://github.com/msAlcantara/bozohate`
  - `$ cd bozohate`
  - `$ python -m venv venv`
  - `$ source venv/bin/activate`
