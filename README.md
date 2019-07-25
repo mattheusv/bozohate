@@ -37,4 +37,4 @@ You can set this environment variables or create a `.env` file like the `.env_te
    - `$ flask compute`
 
 ## License
- [MIT](https://raw.githubusercontent.com/msAlcantarabozohate/master/LICENSE) license.
+ [MIT](https://raw.githubusercontent.com/msAlcantara/bozohate/master/LICENSE) license.
