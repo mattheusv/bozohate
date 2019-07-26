@@ -1,4 +1,4 @@
-from bozohate import create_app
+from bozohate.wsgi import application
 
 if __name__ == "__main__":
-    create_app().run()
+    application.run()
