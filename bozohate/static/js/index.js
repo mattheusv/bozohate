@@ -36,14 +36,6 @@ $.ajax({
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x).tickSize(0));
 
-        svg.append('text')
-            .attr("transform", "rotate(-90)")
-            .attr("y", -(margin.left - 10))
-            .attr("x", -margin.top - (height / 2))
-            .attr("dy", "1em")
-            .style("text-anchor", "middle")
-            .text("processed tweets");
-        
         // Add Y left axis
         var yLeft = d3.scaleLinear()
             .domain([0, d3.max(data, function (d) { return d.total_data; })])
